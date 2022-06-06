@@ -1,0 +1,24 @@
+body{
+         margin: 0 15%;/* поля справа и слева, сверху и снизу отступа нет*/
+        }
+h1,h2,h3{
+    font-family: Arial, Helvetica, sans-serif; /*текст без засечек у всех заголовков*/
+    padding: 1.5em 0 0 0; /*отступ от верхнего 1,5, другие 0*/
+}
+h1{
+    font-size: 32px;/* размер заголовка*/
+}
+table, th, td{
+    border: 1px solid black;/* таблица сделаны границы*/
+}
+figcaption{
+    font-style: italic;/*подпись картинок курсивом*/
+}
+figure{
+       float: right;/* картинки к правому краю*/
+       margin: 5px, 0, 0, 20px;
+       max-width: 250px;/*картинки все по 250пикселей*/
+}
+figure img{
+    max-width: 100%;/*добавили для адаптивности*/
+}
